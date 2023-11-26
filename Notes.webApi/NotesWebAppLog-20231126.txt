@@ -1,0 +1,48 @@
+2023-11-26 18:35:12.997 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-11-26 18:35:13.146 +03:00 [INF] User profile is available. Using 'C:\Users\valexuser\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-26 18:35:13.339 +03:00 [INF] Now listening on: https://localhost:7256
+2023-11-26 18:35:13.339 +03:00 [INF] Now listening on: http://localhost:5213
+2023-11-26 18:35:13.340 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-26 18:35:13.341 +03:00 [INF] Hosting environment: Development
+2023-11-26 18:35:13.348 +03:00 [INF] Content root path: D:\0_valexproject\Platinum_DEV\Notes.Backend\Notes.webApi
+2023-11-26 18:35:19.358 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - null null
+2023-11-26 18:35:19.565 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - 404 0 null 210.0407ms
+2023-11-26 18:35:19.566 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7256/, Response status code: 404
+2023-11-26 18:35:47.814 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/api/note - null null
+2023-11-26 18:35:47.828 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-26 18:35:47.831 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-26 18:35:47.831 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/api/note - 401 0 null 17.2335ms
+2023-11-26 18:36:13.055 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/swagger/index.html - null null
+2023-11-26 18:36:13.137 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/swagger/index.html - 200 null text/html;charset=utf-8 82.7033ms
+2023-11-26 18:36:13.211 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - null null
+2023-11-26 18:36:13.216 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 5.6433ms
+2023-11-26 18:36:13.294 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - null null
+2023-11-26 18:36:13.325 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - 200 null text/javascript; charset=UTF-8 31.6935ms
+2023-11-26 18:36:13.485 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - null null
+2023-11-26 18:36:13.580 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 95.0273ms
+2023-11-26 18:36:47.158 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/api/Note - null null
+2023-11-26 18:36:47.161 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-26 18:36:47.161 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2023-11-26 18:36:47.161 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/api/Note - 401 0 null 4.1239ms
+2023-11-26 18:38:14.281 +03:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "type" = 'table' AND "rootpage" IS NOT NULL;
+2023-11-26 18:38:14.616 +03:00 [INF] User profile is available. Using 'C:\Users\valexuser\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-26 18:38:14.815 +03:00 [INF] Now listening on: https://localhost:7256
+2023-11-26 18:38:14.815 +03:00 [INF] Now listening on: http://localhost:5213
+2023-11-26 18:38:14.816 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-26 18:38:14.816 +03:00 [INF] Hosting environment: Development
+2023-11-26 18:38:14.816 +03:00 [INF] Content root path: D:\0_valexproject\Platinum_DEV\Notes.Backend\Notes.webApi
+2023-11-26 18:38:18.201 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/ - null null
+2023-11-26 18:38:18.361 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/ - 404 0 null 162.8643ms
+2023-11-26 18:38:18.363 +03:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET https://localhost:7256/, Response status code: 404
+2023-11-26 18:39:22.686 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/swagger/index.html - null null
+2023-11-26 18:39:22.780 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/swagger/index.html - 200 null text/html;charset=utf-8 95.4961ms
+2023-11-26 18:39:22.878 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - null null
+2023-11-26 18:39:22.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_framework/aspnetcore-browser-refresh.js - 200 13760 application/javascript; charset=utf-8 6.6366ms
+2023-11-26 18:39:22.919 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/_vs/browserLink - null null
+2023-11-26 18:39:22.956 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/_vs/browserLink - 200 null text/javascript; charset=UTF-8 37.4218ms
+2023-11-26 18:39:23.061 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - null null
+2023-11-26 18:39:23.162 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7256/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 100.3924ms
